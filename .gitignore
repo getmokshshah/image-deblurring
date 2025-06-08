@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch
+*.pth
+*.pt
+
+# Data directories
+data/
+datasets/
+dataset/
+blurry_photos/
+
+# Model checkpoints and logs
+checkpoints/
+logs/
+runs/
+wandb/
+models/config.json
+
+# Results and outputs
+results/
+outputs/
+evaluation_results/
+inference_results/
+
+# Tensorboard logs
+events.out.tfevents.*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Cache
+.cache/
+cache/
+
+# Hugging Face cache
+.huggingface/
+hf_cache/
